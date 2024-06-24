@@ -1,0 +1,30 @@
+ul, ol {
+    list-style-type: none;
+}
+.team-title {
+    font-weight: 700;
+        font-size: 24px;
+        color: #000;
+        text-align: center;
+}
+.team-text {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #000;
+        text-align: center;
+}
+.team-member-name {
+    font-weight: 700;
+        font-size: 18px;
+        /* color: #fff;
+        text-align: center; to be added later*/
+}
+.team-member-position {
+font-weight: 500;
+    font-size: 14px;
+    line-height: 171%;
+    /* color: #fff;
+            text-align: center; to be added later*/
+}
