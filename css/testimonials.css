@@ -1,0 +1,81 @@
+.test-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+
+.foto-name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+}
+
+.test-name-comp {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71429;
+  text-align: center;
+  color: #000;
+}
+
+.test-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+}
+
+.menu .item {
+  padding: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+}
+
+.ellipse-9 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #06071b;
+}
+
+.ellipse-10 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #939eac;
+}
+
+.ellipse-11 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #939eac;
+}
+
+.ellipse-12 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #939eac;
+}
+
+.ellipse-13 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #939eac;
+}
+
+.ellipse-14 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #939eac;
+}
