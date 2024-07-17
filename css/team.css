@@ -1,12 +1,37 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
 ul, ol {
     list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.team-text-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 56px;
 }
 .team-title {
     font-weight: 700;
         font-size: 24px;
         color: #000;
         text-align: center;
+        margin-bottom: 80px;
 }
+
 .team-text {
     font-weight: 500;
         font-size: 16px;
@@ -14,17 +39,68 @@ ul, ol {
         text-align: center;
         color: #000;
         text-align: center;
+        max-width: 886px;
+        }
+
+.team-list {
+display: flex;
+gap: 32px;
+justify-content: center;
+margin-bottom: 80px;
 }
+
+.thumb {
+    border-radius: 20px;
+    /* як сховати білі кути якщо це частина зображення? з макета бордер радіус= 10px*/
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.team-item {
+border-radius: 15px;
+padding: 14px 12px 20px 12px;
+background-color: #06071b;
+}
+
+.team-item-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-1 {
+background-image: linear-gradient(318deg, rgba(0, 197, 235, 0.5), rgba(181, 68, 254, 0.5));
+}
+/* чому тут працює просто градіент */
+
+.card-2 {
+    background-image: linear-gradient(115deg, #00c5eb 0%, #b544fe 100%);
+}
+/* а тут не видно бекграунду */
+
+.card-3 {
+    background-image: linear-gradient(197deg, rgba(0, 197, 235, 0.5) 0%, rgba(181, 68, 254, 0.5) 100%);;
+}
+
+.card-4 {
+    background-image: linear-gradient(319deg, rgba(0, 197, 235, 0.5) 0%, rgba(181, 68, 254, 0.5) 100%);
+}
+/* як додати вектор */
 .team-member-name {
     font-weight: 700;
         font-size: 18px;
-        /* color: #fff;
-        text-align: center; to be added later*/
+        margin-bottom: 12px;
+        font-weight: 700;
+            font-size: 18px;
+            color: #fff;
 }
+
 .team-member-position {
 font-weight: 500;
     font-size: 14px;
     line-height: 171%;
-    /* color: #fff;
-            text-align: center; to be added later*/
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 171%;
+        color: #fff;
 }
